@@ -567,6 +567,92 @@ p{
 
 /* panel or setting style finished */
 
+/* contact us style start */
+.contact_us{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 23px 15px;
+}
+.address_shop h2{
+    font-size: 25px;
+    color: #000;
+}
+.address_shop h3{
+    font-size: 25px;
+    color: gray;
+    padding-left: 12px;
+    padding-bottom: 7px;
+}
+.address_shop p{
+    font-size: 16px;
+    color: gray;
+    padding-left: 12px;
+    padding-bottom: 7px;
+}
+.address_shop .address_icon{
+    padding-left: 30px;
+    padding-top: 8px;
+}
+.address_shop .address_icon i{
+    font-size: 25px;
+    border: #000 2px solid;
+    border-radius: 50%;
+    padding: 3px;
+    margin-left: 7px;
+    color: #000;
+}
+.address_shop .address_icon i:hover{
+    border: 2px solid var(--dark-green);
+    box-shadow: 4px 4px 4px 4px #666;
+}
+.information{
+    padding-top: 16px;
+}
+.information h6{
+    color: #000;
+    font-size: 17px;
+}
+.contact_input{
+    margin-bottom: 16px;
+}
+.information input{
+    width: 70%;
+    height: 30px;
+    margin-top: 3px;
+    padding: 3px;
+}
+.massege{
+    padding-top: 16px;
+}
+.massege h6{
+    color: #000;
+    font-size: 17px;
+}
+.contact_text{
+    margin-bottom: 16px;
+}
+.massege textarea{
+    margin-top: 3px;
+    width: 80%;
+    height: 100px;
+    padding: 5px;
+}
+.massege button{
+    font-size: 18px;
+    color: #000;
+    width: 20%;
+    height: 30px;
+    background-color: var(--dark-green);
+    border: 0;
+    border-radius: 6px;
+    font-weight: 600;
+}
+.massege button:hover{
+    cursor: pointer;
+    background-color: #1ec9bd;
+}
+/* contact us style finished */
+
 /* new arrival style start */
 .section-t-m{
     margin-top: 30px;
