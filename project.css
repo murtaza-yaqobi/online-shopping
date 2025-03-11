@@ -568,6 +568,8 @@ p{
 /* panel or setting style finished */
 
 /* contact us style start */
+
+/* git add . "contact us style added" */
 .contact_us{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -836,6 +838,11 @@ footer .apps img{
     .news .single-news .news-img {
         width: 400px;
     }
+    .contact_us {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin-left: 50px;
+    }
 }
 
 @media (max-width: 580px){
@@ -878,6 +885,10 @@ footer .apps img{
     }
     .news .single-news .news-img {
         width: 500px;
+    }
+    .contact_us {
+        display: grid;
+        grid-template-columns: 1fr;
     }
     footer {
         display: grid;
@@ -927,6 +938,10 @@ footer .apps img{
         height: 30vh;
         padding: 30px;
         grid-template-columns: 1fr;
+    }
+    .address_shop .address_icon {
+        padding-left: 15px;
+        padding-top: 8px;
     }
     footer {
         justify-content: space-around;
