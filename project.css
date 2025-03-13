@@ -445,8 +445,6 @@ p{
 .text-name-date{
     margin-bottom: 10px;
 }
-.text-name-date span{
-}
 .text-name-date span:first-child{
     margin-right: 30px;
     font-weight: bold;
