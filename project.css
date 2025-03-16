@@ -755,6 +755,23 @@ footer .apps img{
 }
 /* footer style finished */
 
+/* meet team style start */
+.meet_team{
+    width: 100%;
+    height: 180px;
+    background-color: #00cc66;
+}
+.meet_team .meet_team_card{
+    display: flex;
+    justify-content: flex-start;
+}
+.meet_team .meet_team_card h1{
+    font-size: 23px;
+    color: #000;
+    
+}
+/* meet team style finished */
+
 /* media query tablet start */
 @media (max-width:799px){
     #nav {
