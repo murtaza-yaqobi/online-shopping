@@ -754,6 +754,13 @@ footer .apps img{
 
 }
 /* footer style finished */
+footer .apps img{
+    border: 1px solid #000;
+    border-radius: 4px;
+
+}
+/* footer style finished */
+
 
 /* meet team style start */
 .meet_team{
